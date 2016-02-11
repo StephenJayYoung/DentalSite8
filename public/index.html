@@ -552,19 +552,43 @@
                     </div>
                 </section>
 
+                <!-- CONTACT SECTION -->
+            <!-- Contact info that will show up in mobile version (above map)-->
+            <section id="location">
+                <div class="container clearfix">
+                    <div class="clearfix visible-sm visible-xs">
+                        <div class="col-md-12">
+                            <p class="standard-logo text-center" data-dark-logo="assets/images/logo.svg"><img src="assets/images/logo.svg" id="bottom-logo-responsive" alt="Logo"></p>
+                                <div class="location-text text-center">
+                                    <address>
+                                        <p>
+                                            11834 Old National Pike<br />
+                                            New Market, MD 21774
+                                        </p>
 
-                <!-- Location
+                                        <a href="https://www.google.com/maps/place/11834+Old+National+Pike,+New+Market,+MD+21774/@39.382744,-77.2539497,17z/data=!3m1!4b1!4m2!3m1!1s0x89c9d3a2cd8a250b:0x1c5c116805342f13" target="_blank" class="directions">Click for Directions</a>
+
+                                    </address>
+                                <p class="call-today"><a href="tel:+18889213878">(888) 921-3878</a></p>
+                                <a href="#" data-toggle="modal" data-target="#schedule-form" class="button btn-block button-rounded center">Request Consultation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- Contact Form & Map Overlay Section
                 ============================================= -->
-                <section id="location" class="content-section clearfix page-section">
-                    <div id="map-overlay">
-                        <div class="container clearfix">
+                <section id="map-overlay">
 
-                            <!-- Contact Form Overlay
-                            ============================================= -->
-                            <div id="contact-form-overlay-mini" class="clearfix center">
-                                <img src="assets/images/logo.svg" class="img-responsive" alt="Haley Tate, DDS" style="width: 100%; max-width: 250px; margin: 0 auto;" />
-                                <br />
-                                <h4>Haley Tate, DDS</h4>
+                    <!-- Contact Form Overlay
+                    ============================================= -->
+                    <!-- Overlay for when map is in desktop version -->
+                <div class="container clearfix">
+                    <div id="contact-form-overlay-mini" class="clearfix hidden-sm hidden-xs">
+
+                    <p class="standard-logo" id="bottom-logo" data-dark-logo="assets/images/logo.svg"><img src="assets/images/logo.svg" alt=""></p>
+                        <div class="location-text text-center">
                                 <address>
                                     <p>
                                         11834 Old National Pike<br />
@@ -576,15 +600,17 @@
                                 </address>
                                 <p class="call-today"><a href="tel:+18889213878">(888) 921-3878</a></p>
                                 <a href="#" data-toggle="modal" data-target="#schedule-form" class="button btn-block button-rounded center">Request Consultation</a>
-                            </div>
-
                         </div>
+                    </div><!-- Desktop Contact Form Overlay End -->
+                </div>
 
-                        <!-- Google Map
-                        ============================================= -->
-                        <div id="google-map" class="gmap"></div>
-                    </div>
-                </section>
+                <!-- Google Map
+                ============================================= -->
+                <div>
+                <section id="google-map" class="gmap"></section>
+                </div>
+            <!-- Google Map End -->
+            </section><!-- Contact Form & Map Overlay Section End -->
             </section>
 
             <!-- Footer
