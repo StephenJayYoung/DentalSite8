@@ -18,7 +18,7 @@
         <!-- Stylesheets
         ============================================= -->
         <link rel="stylesheet" href="assets/css/canvas.css" type="text/css" />
-        <link rel="stylesheet" href="assets/css/lecavalier.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/tate.css" type="text/css" />
 
         <!-- Enable Media Queries on < IE9
         ============================================= -->
@@ -73,14 +73,14 @@
 
                             <!-- Basic Logo 
                             ============================================= -->
-                            <a href="#" data-href="#home" class="standard-logo" data-dark-logo="assets/images/logo.png">
-                                <img src="assets/images/logo.png" alt="" />
+                            <a href="#" data-href="#home" class="standard-logo" data-dark-logo="assets/images/logo.svg">
+                                <img src="assets/images/logo.svg" alt="" />
                             </a>
 
                             <!-- Retina Logo 
                             ============================================= -->
-                            <a href="#" data-href="#home" class="retina-logo" data-dark-logo="assets/images/logo.png">
-                                <img src="assets/images/logo.png" alt="" />
+                            <a href="#" data-href="#home" class="retina-logo" data-dark-logo="assets/images/logo.svg">
+                                <img src="assets/images/logo.svg" alt="" />
                             </a>
 
                         </div>
@@ -93,7 +93,7 @@
                                 <li><a href="#" data-href="#doctor"><div>Meet the Doctor</div></a></li>
                                 <li><a href="#" data-href="#offer"><div>Special Offer</div></a></li>
                                 <li><a href="#" data-href="#reviews"><div>Reviews</div></a></li>
-                                <li><a href="#" data-href="#services"><div>Services</div></a></li>
+                                <li><a href="#" data-href="#benefits"><div>Benefits</div></a></li>
                                 <li><a href="#" data-href="#location"><div>Location</div></a></li>
                             </ul>
                         </nav>
@@ -302,7 +302,7 @@
 
                 <!-- Services
                 ============================================= -->
-                <section id="services" class="content-section clearfix page-section">
+                <section id="benefits" class="content-section clearfix page-section">
                     <div class="container clearfix">
                         <div class="heading-block center noborder">
                             <h2>Our Services</h2>
@@ -674,8 +674,8 @@
         <script type="text/javascript" src="assets/js/jquery.gmap.js"></script>
         <script type="text/javascript" src="assets/js/functions.js"></script>
         <script type="text/javascript" src="assets/js/jquery.appointments.js"></script>
-        <script type="text/javascript" src="//maps.google.com/maps/api/js"></script>
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
         <script type="text/javascript">
             WebFont.load({
@@ -746,33 +746,16 @@
                 _.template(specials.template(specials))
             );
 
-            // gallery carousel
-            var gallery = $("#gallery");
-            gallery.owlCarousel({
-                items: 2,
-                margin: 10,
-                loop: true,
-                nav: true,
-                autoplay: true,
-                dots: false,
-                loop: true,
-                autoplayHoverPause: true,
-                navText : ['<i class="icon-arrow-left"></i>','<i class="icon-arrow-right"></i>'],
-                responsive:{
-                    0: { items:1 },
-                    768: { items:2 }
-                }
-            });
 
             // map script
             $('#google-map').gMap({
 
-                address: '2761 W 120th Ave, Westminster, CO 80234',
+                address: '11834 Old National Pike, New Market, MD 21774',
                 maptype: 'ROADMAP',
                 zoom: 16,
                 markers: [
                     {
-                        address: "2761 W 120th Ave, Westminster, CO 80234",
+                        address: "11834 Old National Pike, New Market, MD 21774",
                         icon: {
                             image: "assets/images/icons/map-icon-red.png",
                             iconsize: [32, 39],
