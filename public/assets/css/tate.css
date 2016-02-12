@@ -219,6 +219,8 @@ blockquote {
 }
 
 #offer {
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #fff;
 }
 
@@ -281,6 +283,8 @@ blockquote {
 }
 
 #reviews {
+		padding-top: 40px;
+		padding-bottom: 40px;
     background-color: #e2e1c5;
 }
 
@@ -300,50 +304,20 @@ blockquote {
     font-size: 18px;
 }
 
+
+
+.testimonial .flex-control-nav li a {
+    background-color: #ef6a35;
+}
+
 .testimonial {
     border-radius: 0px;
 }
 
-#services {
-    background-color: #f1f3f9;
+#benefits{
+		padding-top: 40px;
+		padding-bottom: 40px;
 }
-
-#services article {
-    padding: 5px;
-    box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, .5);
-    background-color: #ffffff;
-}
-
-#services h3 {
-    text-align: center;
-}
-
-.device-sm #services h3 {
-    font-size: 15px;
-}
-
-#services .portfolio-4 .portfolio-item .portfolio-image,
-#services .portfolio-4 .portfolio-item .portfolio-image img {
-    width: 100% !important;
-    height: auto;
-}
-
-.portfolio-item .portfolio-image,
-.portfolio-item .portfolio-image a,
-.portfolio-item .portfolio-image img {
-    display: block;
-    width: 100% !important;
-    height: auto !important;
-}
-
-@media (max-width:991px) and (min-width:767px) {
-    #portfolio:not(.portfolio-1) .portfolio-item {
-        width: 171px;
-        margin: 0 12px 12px 0;
-    }
-}
-
 h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > span:not(.nocolor), h5 > span:not(.nocolor), h6 > span:not(.nocolor) {
     color: #222222;
 }
