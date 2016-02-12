@@ -111,10 +111,10 @@ section:not(#content) {
     color: #ffffff !important;
     border-radius: 0px !important;
 }
-/*
+
 #top-bar a.button:hover,
 #top-bar button:hover {
-	    border-color: #ef6a35 !important;
+	  border-color: #ef6a35 !important;
     background-color: #ffffff !important;
     color: #222222 !important;
     border-radius: 0px !important;
@@ -157,7 +157,7 @@ header {
 
 #primary-menu ul li a {
     padding: 0 10px;
-}*/
+}
 
 /*Trying to fix the navbar*/
 
