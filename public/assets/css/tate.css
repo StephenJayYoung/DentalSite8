@@ -262,6 +262,8 @@ blockquote {
 #offer h2 {
     color: #455565 !important;
     text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 1.1;
 }
 
 #offer h2 span {
@@ -325,9 +327,30 @@ blockquote {
 		padding-top: 40px;
 		padding-bottom: 40px;
 }
+
+.benefit-icons{
+	font-size:24px;
+	padding-left: 25px
+}
+
+@media (max-width: 480px) {
+	.benefit-icons{
+		padding-left: 5px
+	}
+}
+
 h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > span:not(.nocolor), h5 > span:not(.nocolor), h6 > span:not(.nocolor) {
     color: #222222;
 }
+
+@media (min-width: 768px) and (max-width: 990px){
+	.feature-box p {
+    color: #222222;
+    font-size: 15px !important;
+	}
+
+}
+
 
 .feature-box p {
     color: #222222;
