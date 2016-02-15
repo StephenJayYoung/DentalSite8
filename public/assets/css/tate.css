@@ -159,7 +159,6 @@ header {
     padding: 0 10px;
 }
 
-/*Trying to fix the navbar*/
 
 #logo {
     margin-right: 10px;
@@ -216,8 +215,6 @@ nav#primary-menu.statick-sticky > ul{
 	height: 100px;
 }
 
-
-
 #header.full-header #logo {
     padding-right: 30px;
     margin-right: 30px;
@@ -234,8 +231,6 @@ nav#primary-menu.statick-sticky > ul{
 	padding-right: 0;
 	border-right: none;
 }
-
-/*End trying to fix navbar*/
 
 
 #primary-menu ul li a {
@@ -292,7 +287,7 @@ nav#primary-menu.statick-sticky > ul{
     }
 }
 
-#doctor {
+#quote {
     background-color: #455565;
     color: #fff !important;
     padding-top: 25px;
@@ -432,12 +427,6 @@ blockquote {
 	font-size:24px;
 }
 
-/*@media (max-width: 480px) {
-	.benefit-icons{
-		padding-left: 5px
-	}
-}*/
-
 h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > span:not(.nocolor), h5 > span:not(.nocolor), h6 > span:not(.nocolor) {
     color: #222222;
 }
@@ -463,17 +452,14 @@ section#location {
 	padding-bottom: 0px !important;
 }
 
+.mobile-location-section {
+    padding-top: 50px;
+    padding-bottom: 30px
+}
+
 #contact-form-overlay, #contact-form-overlay-mini {
     border-radius: 0px;
 }
-
-/*#contact-form-overlay-mobile{
-	background-color: #FFF;
-	padding: 10px;
-	margin: 0 auto;
-	border-radius: 4px;
-	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
-}*/
 
 @media (min-width: 768px) and (max-width: 991px){
 	#bottom-logo-responsive{
@@ -539,10 +525,6 @@ max-height: 200px;
 max-width: 200px;
 }
 
-/*
-#contact-form-overlay-mini {
-    padding: 20px;
-}*/
 
 #footer {
     background-color: #455565;
